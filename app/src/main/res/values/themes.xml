@@ -1,9 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- Light-only Material3 theme to match the Figma design -->
+    <style name="Base.Theme.UNITED" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/united_ink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
     </style>
 
-    <style name="Theme.App" parent="Base.Theme.App" />
+    <style name="Theme.UNITED" parent="Base.Theme.UNITED" />
+
+    <!-- Black circle behind the selected bottom-nav icon -->
+    <style name="Widget.UNITED.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/united_ink</item>
+        <item name="android:width">40dp</item>
+        <item name="android:height">40dp</item>
+    </style>
 </resources>

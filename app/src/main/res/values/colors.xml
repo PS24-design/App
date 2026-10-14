@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="black">#FF0A0A0A</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="united_ink">#FF0A0A0A</color>
+    <color name="united_gray">#FF6B6B6B</color>
+    <color name="united_gray_light">#FF9A9A9A</color>
+    <color name="united_border">#FFE5E5E5</color>
+    <color name="united_surface">#FFF5F5F5</color>
 </resources>

@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">App</string>
+    <string name="app_name">UNITED</string>
+    <string name="tagline">GRACE THROUGH FAITH</string>
+    <string name="members_shared"><b>18 members</b> shared new case studies this week</string>
 </resources>
