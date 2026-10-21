@@ -61,9 +61,6 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
 
-        findViewById<TextView>(R.id.tvSupport).setOnClickListener {
-            Toast.makeText(this, "Contact support coming soon", Toast.LENGTH_SHORT).show()
-        }
     }
 
     private fun signIn(email: String, password: String) {
